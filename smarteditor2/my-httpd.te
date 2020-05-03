@@ -1,0 +1,19 @@
+
+module my-httpd 1.0;
+
+require {
+	type httpd_log_t;
+	type httpd_t;
+	type httpd_sys_content_t;
+	class dir write;
+	class file write;
+}
+
+#============= httpd_t ==============
+
+#!!!! The file '/var/www/html/smarteditor2/upload/20191104130006826337092.png' is mislabeled on your system.  
+#!!!! Fix with $ restorecon -R -v /var/www/html/smarteditor2/upload/20191104130006826337092.png
+allow httpd_t httpd_log_t:file write;
+
+#!!!! This avc is allowed in the current policy
+allow httpd_t httpd_sys_content_t:dir write;
