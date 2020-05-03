@@ -26,3 +26,5 @@ This is my first web project, and took about 4 weeks.
   - 회원탈퇴 (Sign out)
   - 내가 쓴 레시피 전시 (Showing my recipe)
   - 스크랩한 레시피 전시 (Showing liked recipe)
+  
+작품영상(project video) : https://epdev.tistory.com/5
