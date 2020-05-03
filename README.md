@@ -1,8 +1,11 @@
 # CookItYourself
 
 [작품 소개] (Introduction)
-요리 레시피를 공유하는 커뮤니티 웹사이트입니다. 
-(This is community web site which is sharing your recipes.
+요리 레시피를 공유하는 커뮤니티 웹사이트입니다.
+제 첫 번째로 개발한 웹사이트이며, 작업기간은 4주 정도 소요됐습니다.
+
+This is community web site which is sharing your recipes.
+This is my first web project, and took about 4 weeks.
 
 [주요 기능] (Functions)
 1. 회원가입, 로그인, 비밀번호 찾기 (Sign up, Sign in, finding PW)
